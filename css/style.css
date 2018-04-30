@@ -61,3 +61,56 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/* Effects the header */
+header {
+	background-color: #333333;
+	color: #00ff00;
+}
+header h1, em {
+	margin-right: 1em;
+}
+
+img[alt*="welcome to my homepage"] {
+	display: block;
+	margin: 5px auto;
+}
+
+.instructions-wrapper {
+	display: flex;
+	border:solid #000;
+
+}
+img[alt*="captain janeway"] {
+	flex: auto;
+	flex-flow: row nowrap;
+	max-height: 200px;
+	display: flex;
+}
+/*Effects the About Me*/
+.about-me {
+	background-color: #0000ff;
+	color: #fff;
+	font: italic 0.8em "Courier New";
+}
+img[alt*="captain picard"]  {
+	flex: auto;
+	display: flex;
+	max-height: 200px;
+	float: left;
+	padding: 35px;
+}
+/*Effects Professional Skillz Area*/
+section:nth-child(4) {
+	padding: 50px;
+}
+table {
+	table-layout: fixed;
+}
+th, td {
+
+}
+/*Effects Comment Area*/
+section:nth-child(5){
+	background-color: #006400;
+	color: #00c000;
+}
